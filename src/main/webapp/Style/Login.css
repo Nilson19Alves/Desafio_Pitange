@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/11/2019, 17:07:42
+    Author     : Nilson Alves
+*/
+
+.corpo {
+    text-align: center;
+    background-color: orange;
+    padding-left: 36%;
+    padding-right: 36%;
+}
+
+h1 {
+    color: white;
+}
+
+.outLabelLogin {
+    font-family: cambria;
+    font-size: 32px;
+    margin-left: 34%;
+}
+
+.outLabel {
+    font-family: cambria;
+    font-size: 24px;
+}
+
+#formLogin {
+    background-color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+    border-radius: 20px;
+}
+
+.input {
+    font-family: cambria;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: orange;
+    width: 90%;
+    padding: 2%;
+    margin-top: 2px;
+}
+
+.btComand {
+    font-family: cambria;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    background-color: lightskyblue;
+    color: white;
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+}
+
+
+
+

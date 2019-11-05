@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+    
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>PITANGE</title>
+                <link rel="stylesheet" type="text/css" href="Style/Login.css" />
+            </f:facet>
+        </h:head>
+
+        <h:body styleClass="corpo">
+            
+            <h1>Bem Vindo</h1>
+            
+            <h:form id="formLogin">
+                
+                <p:messages id="messages" showDetail="true" closable="true">
+                    <p:autoUpdate />
+                </p:messages>
+                
+                <h:outputText styleClass="outLabelLogin" value="LOGIN"/>
+                <br/> <br/> <br/>
+                
+                <h:outputText styleClass="outLabel" value="Email"/>
+                <br/>
+                <h:inputText value="#{loginController.email}" required="true" requiredMessage="Email 22" a:placeholder="Seu email" styleClass="input" id="email"/>
+                <br/> <br/>
+
+                <h:outputText styleClass="outLabel" value="Senha"/>
+                <br/>
+                <h:inputSecret value="#{loginController.senha}" a:placeholder="Sua senha" styleClass="input" id="senha"/>
+                <br/> <br/> <br/>
+
+                <h:commandButton styleClass="btComand" value="Login" action="#{loginController.logar()}"/>
+                <br/> <br/>
+                
+                
+            </h:form>
+
+        </h:body>
+
+    </f:view>
+</html>
+

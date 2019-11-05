@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/11/2019, 23:51:03
+    Author     : Nilson Alves
+*/
+
+body {
+    background-color: orange;
+    text-align: center;
+    padding: 2%;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.userName {
+    font-family: cambria;
+    font-size: 22px;
+    background-color: white;
+    padding: 2px;
+    margin-right: 10%;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.userLogout {
+    font-family: cambria;
+    font-size: 14px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.tableUser {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.cadastro {
+    font-family: cambria;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
